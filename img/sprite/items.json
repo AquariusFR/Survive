@@ -1,0 +1,11 @@
+{
+	"id": "items",
+	"url": "sprite/items.png",
+	"sprites": 
+	{
+		"empty":{ "id":"empty", "position": [0, 0, 1, 1]},
+		"9mm":{ "id":"9mm", "position": [224, 0, 111, 71]},
+		"knife":{ "id":"knife", "position": [112, 0, 111, 71]},
+		"bfg":{ "id":"bfg", "position": [0, 72, 111, 71]}
+	}
+}

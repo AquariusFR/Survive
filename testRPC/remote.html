@@ -1,0 +1,25 @@
+<html>
+ <body>
+  	<div>
+  		Call : <label style="border: 1px solid black"  disabled="" id="call"></label>
+    	<button id="createButton">Create</button>
+  		<br>
+  		Invite : <textarea id="invite"></textarea>
+  		<button id="joinButton">Join</button>
+  	</div>
+  
+ 	<div id="sendReceive">
+    	<div id="send">
+      	<h2>Send</h2>
+      	<textarea id="dataChannelSend" placeholder="Press Start, enter some text, then press Send."></textarea>
+  		<button id="sendButton">Send</button>
+    </div>
+    <div id="receive">
+      <h2>Receive</h2>
+      <textarea id="dataChannelReceive"></textarea>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/xhr.js"></script>
+  <script type="text/javascript" src="./chat.js"></script>
+ <body>
+</html>

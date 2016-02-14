@@ -1,0 +1,31 @@
+<html>
+ <body>
+ 	<div id="buttons">
+<!--     <button id="startButton" disabled="">Start</button> -->
+    <button id="sendButton">Send</button>
+    <button id="closeButton">Stop</button>
+  </div>
+  
+  	<div>
+  		Call : <textarea style="border: 1px solid black"  disabled="" id="call"></textarea>
+    	<button id="createButton">Create</button>
+  		<br>
+  		Invite : <textarea id="invite"></textarea>
+  		<button id="joinButton">Join</button>
+  	</div>
+  
+ 	<div id="sendReceive">
+    <div id="send">
+      <h2>Send</h2>
+      <textarea id="dataChannelSend" disabled="" placeholder="Press Start, enter some text, then press Send."></textarea>
+    </div>
+    <div id="receive">
+      <h2>Receive</h2>
+      <textarea id="dataChannelReceive" disabled=""></textarea>
+    </div>
+  </div>
+  <script type="text/javascript" src="../js/lz-string-1.3.3-min.js"></script>
+  <script type="text/javascript" src="../js/xhr.js"></script>
+  <script type="text/javascript" src="./rpc.js"></script>
+ <body>
+</html>

@@ -1,0 +1,20 @@
+<html>
+ <body>
+ 	<button onclick="survive.launch({changeState: true});">CHANGE ANIMATION</button>
+ 	<button onclick="survive.launch({freeze: true});">FREEZE</button>
+ 	<button onclick="survive.launch({incrementFrame: true});">>></button>
+ 	<button onclick="survive.launch({decrementFrame: true});"><<</button>
+ 	<button onclick="survive.launch({incrementOffsetX: true});">&larr;</button>
+ 	<button onclick="survive.launch({decrementOffsetX: true});">&rarr;</button>
+ 	<button onclick="survive.launch({incrementOffsetY: true});">&uarr;</button>
+ 	<button onclick="survive.launch({decrementOffsetY: true});">&darr;</button>
+ 	<button onclick="survive.launch({snapshot: true});">snapshot</button>
+ 	<button onclick="survive.launch({clearSnapshot: true});">clear</button>
+ 	<div style="position : relative">
+ 		<canvas id="canvasOverlay" width="1000" height="2100" style="position: absolute;"></canvas>
+ 		<canvas id="canvasAnimation" width="1000" height="2100" style="position: absolute;"></canvas>
+ 	</div>
+ 	<script type="text/javascript" src="../js/xhr.js"></script>
+ 	<script type="text/javascript" src="./testAnimation.js"></script>   
+ <body>
+</html>
