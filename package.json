@@ -1,0 +1,33 @@
+{
+    "name": "survive-1",
+    "version": "1.0.0",
+    "description": "tdb",
+    "main": "gruntfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AquariusFR/Survive2.git"
+    },
+    "author": "fred",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AquariusFR/Survive2/issues"
+    },
+    "homepage": "https://github.com/AquariusFR/Survive2#readme",
+    "devDependencies": {
+        "connect-livereload": "^0.6.0",
+        "grunt": "~0.4.5",
+        "grunt-connect-proxy": "^0.2.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-connect": "^1.0.2",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-uglify": "~0.5.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "load-grunt-tasks": "^3.5.2",
+        "time-grunt": "^1.4.0"
+    },
+    "dependencies": {}
+}
